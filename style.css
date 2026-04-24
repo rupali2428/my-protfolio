@@ -111,3 +111,71 @@ form button {
     color: white;
     border: 1px solid #555;
 }
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4CAF50, #1b5e20);
+    color: white;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+section {
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background: #e8f5e9;
+}
+button, .resume-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .resume-btn:hover {
+    background: #2e7d32;
+    transform: scale(1.05);
+}
+@media (max-width: 600px) {
+    header {
+        padding: 40px 10px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .profile {
+        width: 120px;
+        height: 120px;
+    }
+}
