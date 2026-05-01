@@ -192,3 +192,6 @@ button:hover, .resume-btn:hover {
   background: black;
   color: white;
 }
+.project-box {
+  pointer-events: auto;
+}
