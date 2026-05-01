@@ -179,3 +179,15 @@ button:hover, .resume-btn:hover {
         height: 120px;
     }
 }
+button {
+  background: #FFC107;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
