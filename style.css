@@ -250,3 +250,29 @@ button:hover, .resume-btn:hover {
 .nav-links li a:hover{
   color: green;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+#services{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box{
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
