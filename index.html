@@ -21,7 +21,8 @@
 </nav>
 <body>
 
-<header>
+<header id="home">
+
     <img src="profile.jpg" class="profile">
     <h1>Rupali Srivastava</h1>
     <p>Web Developer | CSE Student</p>
@@ -36,8 +37,7 @@
 
     <button onclick="toggleDark()">🌙 Dark Mode</button>
 </header>
-
-<section class="about fade">
+<section id="about" class="about fade">
     <h2>About Me</h2>
     <p>I am a dedicated and self-motivated individual with a background in Computer Science Engineering (Diploma) and ADCA. I have a strong interest in web development and enjoy creating responsive and user-friendly websites using HTML, CSS, and JavaScript.
 
@@ -45,6 +45,7 @@ With a unique combination of technical and financial knowledge, I aim to build s
 
 I am currently looking for opportunities where I can grow, gain experience, and contribute my skills in the field of web development.</p>
 </section>
+
 <section id="skills" class="skills fade">
     <h2>Skills</h2>
     <div class="skills-list">
@@ -56,7 +57,6 @@ I am currently looking for opportunities where I can grow, gain experience, and 
     <p>VS Code</p>
     <p>Responsive Web Design</p>
 </div>
-</section>
 </section>
 <section id="services">
     <h2>My Services</h2>
@@ -76,11 +76,29 @@ I am currently looking for opportunities where I can grow, gain experience, and 
         <p>Designing personal portfolio websites.</p>
     </div>
 </section>
-<section class="projects fade">
+<section id="projects">
     <h2>Projects</h2>
-    <div class="card">Portfolio Website</div>
-    <div class="card">Calculator App</div>
-    <div class="card">Online Medical store</div>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>
+            A personal portfolio website developed using HTML, CSS and JavaScript.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Calculator App</h3>
+        <p>
+            A simple calculator built using HTML, CSS and JavaScript.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Online Medical Store</h3>
+        <p>
+            Medical store website interface with responsive design.
+        </p>
+    </div>
 </section>
 <section id="education">
     <h2>Education</h2>
@@ -96,7 +114,7 @@ I am currently looking for opportunities where I can grow, gain experience, and 
         <p>Advanced Diploma in Computer Applications</p>
     </div>
 </section>
-<section class="contact fade">
+<section id="contact" class="contact fade">
     <h2>Contact Me</h2>
 
     <form id="contact-form">
@@ -107,13 +125,12 @@ I am currently looking for opportunities where I can grow, gain experience, and 
 </form>
 
     <p id="msg"></p>
-</section>
-
 <footer>
     <p>© 2026 Rupali Portfolio</p>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
 <p>
